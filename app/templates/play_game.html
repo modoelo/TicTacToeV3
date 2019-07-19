@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Tic Tac Toe!</title>
+        <link rel="stylesheet" href = "/static/style.css" type = "text/css"/>
+    </head>
+    <body>
+<h1>Tic Tac Toe</h1>
+    <table>
+  <tr>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=0"> {{ grid[0] }} </a></td>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=1"> {{ grid[1] }} </a></td>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=2"> {{ grid[2] }} </a></td>
+  </tr>
+    <tr>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=3"> {{ grid[3] }} </a></td>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=4"> {{ grid[4] }} </a></td>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=5"> {{ grid[5] }} </a></td>
+  </tr>  
+  <tr>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=6"> {{ grid[6] }} </a></td>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=7"> {{ grid[7] }} </a></td>
+    <td><a href="/play_game?id={{nextTurn}}&boxNum=8"> {{ grid[8] }} </a></td>
+  </tr>
+
+    </table>
+<br><br>
+<a href="/reset">Reset Grid</a>
+    </body>
+</html>

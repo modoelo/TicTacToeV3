@@ -1,0 +1,11 @@
+td, th {
+  font-size:40pt;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+}
+
+a:link {
+  text-decoration: none;
+}
